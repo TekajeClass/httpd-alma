@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    
+    ServerName tekaje.net
+    DocumentRoot {{ root_dir }}
+
+    ErrorLog /var/log/httpd/error_log
+    CustomLog /var/log/httpd/access_log
+
+</VirtualHost>
