@@ -4,6 +4,6 @@
     DocumentRoot {{ root_dir }}
 
     ErrorLog /var/log/httpd/error_log
-    CustomLog /var/log/httpd/access_log
+    CustomLog /var/log/httpd/access_log Combined
 
 </VirtualHost>
